@@ -22,6 +22,9 @@
             margin: 20px;
             padding: 0;
             text-align: center; /* Centraliza o texto */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         h1 {
@@ -31,6 +34,7 @@
         p {
             color: #555;
             font-size: 20px;
+            max-width: 800px;
         }
 
         footer {
@@ -47,7 +51,14 @@
         a:hover {
             text-decoration: underline;
         }
-        
+
+        /* Estilos Flexbox */
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
     </style>
 
 </head>
@@ -56,20 +67,21 @@
 
     <h1>Marco Zero do Recife</h1>
 
-    <p><strong>Marco Zero</strong> é o ponto central da cidade do <em>Recife</em>, onde a cidade foi oficialmente fundada.</p>
+    <div class="content">
+        <p><strong>Marco Zero</strong> é o ponto central da cidade do <em>Recife</em>, onde a cidade foi oficialmente fundada.</p>
 
-    <img src="MZ.png" alt="Imagem histórica do Marco Zero">
+        <img src="MZ.png" alt="Imagem histórica do Marco Zero">
 
-    <p>Além de ser um marco histórico, o local também é conhecido pelas suas atrações culturais e artísticas.</p>
+        <p>Além de ser um marco histórico, o local também é conhecido pelas suas atrações culturais e artísticas.</p>
 
-    <img src="MZ_festas.png" alt="Atrações no Marco Zero">
+        <img src="MZ_festas.png" alt="Atrações no Marco Zero">
 
-    <p>O Marco Zero está localizado no bairro do Recife Antigo, sendo um dos principais pontos turísticos da cidade.</p>
+        <p>O Marco Zero está localizado no bairro do Recife Antigo, sendo um dos principais pontos turísticos da cidade.</p>
 
-    <img src="MZ_atualmente.png" alt="Localização do Marco Zero">
+        <img src="MZ_atualmente.png" alt="Localização do Marco Zero">
 
-    <p><a href="Marco_zero2.html">Conheça mais pontos turísticos do Recife Antigo</a></p>
-
+        <p><a href="Marco_zero2.html">Conheça mais pontos turísticos do Recife Antigo</a></p>
+    </div>
 
     <footer>
 
@@ -78,6 +90,5 @@
     </footer>
 
 </body>
-
 
 </html>

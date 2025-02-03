@@ -5,11 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Outros Pontos Turísticos do Recife Antigo</title>
     <style>
-        h1{
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
             color: red;
             font-size: 50px;
+            text-align: center;
         }
-        p{
+        nav {
+            align-self: flex-start;
+            margin: 10px;
+        }
+        nav a {
+            color: blue;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 80%;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 450px;
+            max-height: 300px;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+        p {
             color: #555;
             font-size: 20px;
         }
@@ -23,16 +59,17 @@
     <section id="praca-do-arsenal">
         <h2>Praça do Arsenal</h2>
         <p>A <strong>Praça do Arsenal</strong> é um local vibrante, repleto de bares, restaurantes e eventos culturais.</p>
-        <img src="Praca Ars.jpg" alt="Imagem da Praça do Arsenal" width="450" height="300">
+        <img src="Praca Ars.jpg" alt="Imagem da Praça do Arsenal">
     </section>
     <section id="torre-mallet">
         <h2>Torre Malakoff</h2>
         <p>A <em>Torre Malakoff</em> é um importante centro cultural e oferece uma vista panorâmica do Recife Antigo.</p>
-        <img src="Torre mala.jpg" alt="Imagem da Torre Malakoff" width="450" height="300">
+        <img src="Torre mala.jpg" alt="Imagem da Torre Malakoff">
     </section>
     <footer>
         <p>&copy; 2025 Turismo Recife. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
+
 
